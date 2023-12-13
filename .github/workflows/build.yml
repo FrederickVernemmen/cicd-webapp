@@ -20,4 +20,8 @@ jobs:
         run: yarn install
 
       - name: Run lint
+<<<<<<< HEAD
         run: yarn lint
+=======
+        run: yarn lint
+>>>>>>> 86c3fc437f62ad0697706fbe981ae153939b3e9a
