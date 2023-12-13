@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           file: Dockerfile
-          tags: FrederickVernemmen/webapp:latest
+          tags: frederickvernemmen/webapp:latest
