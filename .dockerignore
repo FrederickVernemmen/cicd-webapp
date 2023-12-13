@@ -1,0 +1,5 @@
+node_modules
+.dockerignore
+.docker
+.git
+# Add any other files or directories you want to exclude from the context
