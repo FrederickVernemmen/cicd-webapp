@@ -22,7 +22,7 @@ app.use((_, res, next) => {
   next();
 });
 
-app.get('/animalss', asyncMiddleware(async (_, res) => {
+app.get('/animals', asyncMiddleware(async (_, res) => {
   const animals = await persistence.getAnimals();
   res.json(animals);
 }));
